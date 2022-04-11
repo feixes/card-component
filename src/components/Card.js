@@ -34,12 +34,30 @@ const StyledCard = styled.article`
         padding: 0 2rem;
         
         h4{
-        text-transform: capitalize;
-        color: red;
+            text-transform: capitalize;
+        
+        }
+
+
+        p{
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        &:hover{
+          background: #f2f4f8  
         }
     }
- 
 
+    transition: box-shadow 0.3s ease-in-out;
+    &:hover{
+        box-shadow: 0 3px 3px #222;
+        cursor:pointer
+    }
+ 
+    @media (min-width: 768px){
+        max-width: 600px;
+    }
 
 
 `
