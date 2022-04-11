@@ -35,6 +35,10 @@ const StyledCard = styled.article`
         
         h4{
             text-transform: capitalize;
+            &::before{
+                content:'Name: ';
+                color:red;
+            }
         
         }
 
@@ -45,7 +49,9 @@ const StyledCard = styled.article`
         }
 
         &:hover{
-          background: #f2f4f8  
+          background: #fff;
+          border-top-left-radius: 0.25rem;
+          border-top-right-radius: 0.25rem;  
         }
     }
 
