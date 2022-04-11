@@ -35,6 +35,7 @@ const StyledCard = styled.article`
         
         h4{
             text-transform: capitalize;
+            color: #222;
             &::before{
                 content:'Name: ';
                 color:red;
