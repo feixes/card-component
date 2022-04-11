@@ -1,11 +1,12 @@
-
+import Card from './components/Card'
 
 function App() {
   return (
     <div style={{ padding: '2rem' }}>
-      <h2>This will be a card component</h2>
+      <Card />
     </div >
   );
 }
 
 export default App;
+
