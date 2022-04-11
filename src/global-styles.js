@@ -24,7 +24,7 @@ const GlobalStyles = createGlobalStyle`
         cursor: pointer;
         text-transform: capitalize;
         padding: 0.25rem;
-        display: block;
+        display: inline-block;
         width: 200px;
         margin: 1rem auto;
     }
