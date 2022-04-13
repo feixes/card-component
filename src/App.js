@@ -1,6 +1,7 @@
-import Loading from './components/Loading'
+
 import styled from 'styled-components'
 
+import { HipsterButton } from "./components/Buttons"
 
 
 
@@ -11,7 +12,11 @@ function App() {
 
 
   return (
-    <Loading />
+    <div style={{ padding: '2rem' }}>
+      <HipsterButton as='a' href='https://www.johnsmilga.com/'>click me!</HipsterButton>
+      <HipsterButton>click me!</HipsterButton>
+      <HipsterButton>click me!</HipsterButton>
+    </div>
   );
 }
 

@@ -12,7 +12,7 @@ const Loading = styled.div`
     border: 5px solid #ccc;
     border-radius: 50%;
     border-top-color: var(--primary);
-    animation: ${spinner} 0.6s linear infinite;
+    animation: ${spinner} 1.5s linear infinite;
 `
 
 
