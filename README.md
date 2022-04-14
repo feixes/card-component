@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+I ended up using this project for the rest of the course. On other branches you can find a Loading spinner, a form, and working with lists and props
+
 ## Available Scripts
 
 In the project directory, you can run:
