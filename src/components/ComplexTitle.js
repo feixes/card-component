@@ -8,7 +8,7 @@ export const ComplexTitle = ({ title }) => {
         <Wrapper >
             <h1>{title}</h1>
             <div className='underline'></div>
-            <h2 className='bg-grey title'>Random</h2>
+            {/* <h2 className='bg-grey title'>Random</h2> */}
         </Wrapper>
     )
 }
